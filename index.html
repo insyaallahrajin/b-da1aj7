@@ -1,27 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hallo world 2</title>
-    <style>
-        body {
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #f0f8ff;
-            font-family: Arial, sans-serif;
-        }
-        h1 {
-            font-size: 4rem;
-            color: #333;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My App</title>
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family: sans-serif; }
+    header { background: #333; color: #fff; padding: 1rem; text-align: center; }
+    header h1 { margin:0; }
+    nav { display: flex; justify-content: center; gap: 1rem; margin-top: 0.5rem; }
+    nav a { color: #fff; text-decoration: none; }
+    main { padding: 2rem; }
+  </style>
 </head>
 <body>
-    <h1>Hallo world 3 bos</h1>
+  <header>
+    <h1>My App</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <p>Welcome to the application. Header has been added.</p>
+  </main>
 </body>
 </html>
